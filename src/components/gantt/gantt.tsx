@@ -322,7 +322,7 @@ export const Gantt: React.FunctionComponent<GanttProps> = ({
    * Handles arrow keys events and transform it to new scroll
    */
   const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
-    event.preventDefault();
+    // event.preventDefault();
     let newScrollY = scrollY;
     let newScrollX = scrollX;
     let isX = true;
